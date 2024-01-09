@@ -12,17 +12,17 @@ export const users = [
     {
         id : 3 ,
         profilePicture : "/assets/person/3.jpeg",
-        userName:"Hetvi Jariwala"
+        userName:"raj Jariwala"
     },
     {
         id : 4 ,
         profilePicture : "/assets/person/4.jpeg",
-        userName:"Drashti Gor"
+        userName:"Darsh patel"
     },
     {
         id : 5 ,
         profilePicture : "/assets/person/5.jpeg",
-        userName:"Rajshree Bhavsar"
+        userName:"om patel"
     },
     {
         id : 6 ,
