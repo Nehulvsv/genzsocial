@@ -17,7 +17,7 @@ export const users = [
     {
         id : 4 ,
         profilePicture : "/assets/person/4.jpeg",
-        userName:"Darsh patel"
+        userName:"Drashti Gor"
     },
     {
         id : 5 ,
@@ -61,7 +61,7 @@ export const Posts = [
         userId: 1,
         like: 32,
         comment : 9 
-
+        
     },
     {
         id : 2 ,
@@ -70,7 +70,7 @@ export const Posts = [
         userId: 2,
         like: 54,
         comment : 17
-
+        
     },
     {
         id : 3 ,
