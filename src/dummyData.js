@@ -17,7 +17,7 @@ export const users = [
     {
         id : 4 ,
         profilePicture : "/assets/person/4.jpeg",
-        userName:"Drashti Gor"
+        userName:"Roshan shah"
     },
     {
         id : 5 ,
@@ -37,7 +37,7 @@ export const users = [
     {
         id : 8 ,
         profilePicture : "/assets/person/8.jpeg",
-        userName:"Roshan Shah"
+        userName:"Drashti Gor🌻"
     },
     {
         id : 9 ,
