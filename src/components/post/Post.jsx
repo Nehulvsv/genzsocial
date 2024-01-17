@@ -9,11 +9,7 @@ export default function Post({post}) {
 
     function likeHender(){
         setLike(isLiked ? like - 1 : like + 1)
-        if (isLiked == false) {
-            setIsLiked(true)
-        } else {
-            setIsLiked(false)
-        }
+        setIsLiked(!isLiked)
     }
 
    
@@ -37,7 +33,7 @@ export default function Post({post}) {
             <div className="postBottom">
                 <div className="postBottomLeft">
                     <img src="/assets/like.png" alt=""  className='likeIcon' onClick={likeHender}/>
-                    <img src="/assets/heart.png" alt="" className='likeIcon'/>
+                    <img src="/assets/heart.png" alt="" className='likeIcon' onClick={likeHender}/>
                     <span className="likecounter">{like} people like it</span>
                 </div>
                 <div className="postBottomRight">
