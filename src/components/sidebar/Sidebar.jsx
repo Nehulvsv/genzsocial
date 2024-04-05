@@ -14,7 +14,6 @@ import {
 import { users } from "../../dummyData";
 import CloseFed from "../closeFrd/CloseFed";
 
-
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -60,7 +59,9 @@ export default function Sidebar() {
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
-          {users.map(u =>(<CloseFed key={u.id} user={u}/>))}
+          {users.map((u) => (
+            <CloseFed key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>
